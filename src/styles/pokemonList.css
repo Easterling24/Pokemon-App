@@ -1,0 +1,86 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper i {
+	font-size: 50px;
+	transition-duration: 300ms;
+	color: #141b1e;
+}
+
+.wrapper i:active {
+	transform: scale(0.8);
+}
+
+.pokemon-list-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 800px;
+}
+
+.pagination-btn {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #004b7d;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	
+}
+
+.pagination-btn i {
+	color: white;
+}
+
+.pokemonWrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 2rem;
+
+}
+
+.pagination-btn-mobile{
+	display: none;
+}
+
+.pagination-btn-mobile button{
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+
+@media screen and (max-width: 560px) {
+	.pokemon-list-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.pokemonWrapper {
+		flex-direction: column;
+	}
+
+	.pagination-btn {
+		display: none;
+	}
+
+	.pagination-btn-mobile{
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 1.5rem;
+	}
+	.pagination-btn-mobile i {
+		font-size: 27px;
+	}
+
+
+
+}

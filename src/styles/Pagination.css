@@ -1,0 +1,15 @@
+.pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 5rem;
+}
+
+.pagination-btn{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

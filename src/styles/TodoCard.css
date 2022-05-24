@@ -1,0 +1,100 @@
+.todo-card-container {
+	background-color: #323922;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+	z-index: 1;
+	width: 600px;
+}
+
+
+.todo-card-container span {
+	transition: all 300ms ease-in-out;
+}
+
+.edit-todo-btn,
+.complete-todo-btn {
+	width: 170px;
+	height: 50px;
+	padding: 0 5px;
+	border-radius: 5px;
+	background-color: #ddcaa0;
+	color: black;
+	font-size: 12px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin: 0 10px;
+	transition: all 300ms ease-in-out;
+}
+
+
+.complete-todo-btn:disabled{
+	background-color: #b6b4af;
+}
+
+.edit-todo-btn:disabled{
+	background-color: #b6b4af;
+
+}
+
+.todo-card-btns {
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+}
+
+
+.edit-todo input {
+	outline: none;
+	border: none;
+	padding: 8px;
+	width: 70%;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 560px) {
+	.todo-card-container {
+		flex-direction: column;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.todo-text {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.todo-card-btns {
+		justify-content: flex-start;
+	}
+
+	.edit-todo-btn,
+	.complete-todo-btn {
+		font-size: 10px;
+		width: 120px;
+		height: 30px;
+		margin: 0;
+	}
+
+	.edit-todo-btn {
+		margin-right: 1rem;
+	}
+
+	.edit-todo {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 1rem;
+	}
+}

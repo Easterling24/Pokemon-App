@@ -1,0 +1,52 @@
+.form-wrapper{
+width: 450px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-wrapper button{
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.form-wrapper input{
+    height: 100%;
+    width: 75%;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 560px){
+    .form-wrapper {
+        width: 400px;
+        height: 40px;
+        padding: 0 2rem;
+        margin-top: 2rem;
+    }
+
+    .form-wrapper input{
+      
+    }
+
+    .form-wrapper button{
+        padding: 0;
+ 
+    
+    }
+
+    
+}

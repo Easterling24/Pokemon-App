@@ -1,0 +1,97 @@
+.pokemon-card {
+	height: 240px;
+	width: 240px;
+	background-color: #004b7d;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid white;
+	cursor: pointer;
+	padding: 1.5rem;
+	transition-duration: 300ms;
+	border-radius: 5px;
+	border: none;
+	position: relative;
+}
+
+.pokemon-image {
+	height: 120px;
+	width: 120px;
+	margin-top: 2rem;
+}
+.pokemon-image img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.addBtn {
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+
+.card-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	margin: 0rem 1rem 1.5rem 0rem;
+}
+.view-btn {
+	width: 45%;
+	text-align: center;
+	color: white;
+	position: relative;
+	transition: 0.3s ease-in-out;
+	padding: 10px 0px;
+	border-radius: 5px;
+	z-index: 1;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.add-btn {
+	width: 45%;
+	text-align: center;
+	color: white;
+	position: relative;
+	transition: 0.3s ease-in-out;
+	padding: 10px 0px;
+	border-radius: 5px;
+	background-color: #aa752b;
+	z-index: 1;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.add-btn:disabled {
+	background-color: #919191;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.btns-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+
+
+
+@media screen and (max-width: 560px) {
+	.pokemon-card {
+		width: 350px;
+	}
+
+	.card-wrapper {
+		margin: 0 0 1rem 0;
+	}
+}

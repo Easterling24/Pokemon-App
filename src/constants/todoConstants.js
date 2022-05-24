@@ -1,0 +1,8 @@
+export const FETCHING_TODOS = 'FETCHING_TODOS';
+export const RESOLVING_TODOS = 'RESOLVING_TODOS';
+export const REJECTING_TODOS = 'REJECTING_TODOS';
+
+export const ADDING_TODO = 'ADDING_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const COMPLETE_TODO ="COMPLETE_TODO"
