@@ -1,7 +1,9 @@
 # A small SPA Application powered by Yevgeniy Gupalo
 
-## Briefly
-This small project covers the subjects such as React Routing, Hooks, Redux for state manaagement & data sharing across the app and storage
+## Main features
+* Fetching & Displaying API data
+* Adding/Removing/Modyfying Items via Redux
+* Todo List & Pagination
 
 ## App Demo [Application demo](https://easterling24.github.io/PokemonApp/)
 
