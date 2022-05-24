@@ -5,7 +5,7 @@
 * Adding/Removing/Modyfying Items via Redux
 * Todo List & Pagination
 
-## App Demo [Application demo](https://easterling24.github.io/PokemonApp/)
+## App Demo [Application demo](https://easterling24.github.io/Pokemon-App/)
 
 ## Installation
 * Start Git Bash

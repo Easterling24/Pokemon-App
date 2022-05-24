@@ -2,7 +2,7 @@
   "name": "pokemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://easterling24.github.io/PokemonApp/",
+  "homepage": "https://easterling24.github.io/Pokemon-App/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

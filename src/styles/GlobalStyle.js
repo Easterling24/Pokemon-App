@@ -8,8 +8,8 @@ body {
     position: relative;
     height: 100vh;
 
-    @media screen and (max-width:560px){
-    }
+
+
 }
 `;
 
